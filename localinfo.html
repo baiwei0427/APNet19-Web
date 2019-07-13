@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<script src="./js/jquery.min.js"></script>
+	<script>
+		$(function(){
+			$("#includeNav").load("nav.html");
+		});
+	</script>
+	<script>
+		$(function(){
+			$("#includeFooter").load("footer.html");
+		});
+	</script>
+
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <title>APNET 2019</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <h1>3<sup>rd</sup> Asia-Pacific Workshop on Networking (APNet 2019)</h1>
+        <h2>August 17-18 2019, Beijing, China</h2>
+		<br>
+		<h2>Co-located with ACM SIGCOMM 2019</h2>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <div class="row">
+			<div id="includeNav"></div>
+			<section id="main-content">
+				<h1><a id="cfp" class="anchor" href="#cfp" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Local Information</h1>
+				<h2>Venue</h2>
+				<a href="http://beijing-jinlongtan-hotel.hotels-beijing-ch.com/en/">Jinlongtan Hotel</a>, Beijing, China<br/><br/>
+				
+				<div><iframe src="https://www.google.com/maps/d/embed?mid=1s-yvX5qPpwdfR1X9CU2iyAgxlObK-6zh&hl=en" width="640" height="480"></iframe></div>
+
+				<h2>Accomodation</h2>
+				<p>The workshop recommends the following hotels for the attendees. The locations of the hotels are shown in the map above.</p>
+				<ul>
+					<li><a href="http://beijing-jinlongtan-hotel.hotels-beijing-ch.com/en/">Jinlongtan Hotel</a> (Conference Hotel), No.71, XI San Huan North Road, Beijing, China</li>
+					<li><a href="https://www.shangri-la.com/beijing/shangrila/">Shangri-La Hotel</a> (SIGCOMM 2019 Conference Hotel), No.29, Zizhuyuan Road, Beijing, China</li>
+				</ul>
+			</section>
+        </div>
+      </div>
+	  <div id="includeFooter"></div>
+	</div>
+	</body>
+</html>
